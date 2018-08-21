@@ -49,6 +49,8 @@ namespace
     {
         if (output.formatting().is_set(formatting_flags::bracket_ws))
             output << whitespace;
+        // this is test comment added 
+        // to test incremental scan
     }
 
     void operator_ws(const code_generator::output& output)
